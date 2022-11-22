@@ -37,6 +37,7 @@ h3 {
 span {
     font-weight: bold;
     color: #000000;
+    padding: 20px;
 }
 
 p {
@@ -58,4 +59,5 @@ a {
     color: #ffffff;
     background-color: green;
     border-radius: 25px;
+    
 }
