@@ -7,22 +7,42 @@ body {
     font-family: 'Tahoma';
 }
 
-.logo {
-    text-align: center;
+div {
     padding: 30px 0;
+    text-align: center;
+}
+
+p {
+    margin: 10px auto;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.logo {
+    background-color: #afddfb;   
 }
 
 .img-logo {
-    width: 180px;
+    width: 150px;
 }
 
-.banner, .imovel, .servicos, .corretores, .contato {
-    padding: 30px 0;
-    text-align: center;
+.logo-p {
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
-.logo-p, .imovel-p, .servicos-p, .corretores-p, .contrato-p {
-    margin: 10px auto;
+.logo-p a {
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin: 0;
+    margin-right: 10px;
+    
 }
 
 .imovel-p {
@@ -30,3 +50,27 @@ body {
     text-align: justify;
 }
 
+.banner {
+    padding-top: 0;
+    margin-top: 50px;
+}
+
+.imovel h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+.imovel h2 {
+    color: #1c81c0;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.imovel .img-imovel {
+    width: 450px;
+}
+
+.imovel span {
+    color: #1d80c1;
+    font-weight: bold;
+}
