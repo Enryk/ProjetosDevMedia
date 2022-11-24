@@ -74,3 +74,26 @@ span {
     color: #1d80c1;
     font-weight: bold;
 }
+
+.servicos {
+    background-color: #1d80c1;
+}
+
+.servicos h2 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.servicos p {
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+}
+
+.servicos span {
+    font-weight: bold;
+    color: #fff81b;
+}
