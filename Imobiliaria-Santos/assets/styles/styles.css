@@ -69,7 +69,7 @@ span {
     width: 450px;
 }
 
-.imovel span {
+.imovel span, .corretores span {
     color: #1d80c1;
     font-weight: bold;
 }
@@ -78,7 +78,7 @@ span {
     background-color: #1d80c1;
 }
 
-.servicos h2 {
+.servicos h2, .contato h2 {
     color: #ffffff;
     font-size: 28px;
     line-height: 42px;
@@ -92,7 +92,7 @@ span {
     width: 700px;
 }
 
-.servicos span {
+.servicos span, .contato span {
     font-weight: bold;
     color: #fff81b;
 }
@@ -115,11 +115,6 @@ span {
     line-height: 42px;
 }
 
-.corretores span {
-    color: #1d80c1;
-    font-weight: bold;
-}
-
 .corretores p {
     width: 980px;
     text-align: justify;
@@ -129,22 +124,11 @@ span {
     background-color: #1d80c1;
 }
 
-.contato h2 {
-    color: #ffffff;
-    font-size: 28px;
-    line-height: 42px;
-}
-
 .contato p {
     color: #ffffff;
     background-color: #1d1d1d;
     padding: 15px;
     margin: 30px 0;
-}
-
-.contato span {
-    font-weight: bold;
-    color: #fff81b;
 }
 
 .contato ul {
