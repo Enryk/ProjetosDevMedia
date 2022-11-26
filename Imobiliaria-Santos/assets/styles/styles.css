@@ -30,12 +30,12 @@ span {
     width: 150px;
 }
 
-.logo-p {
+.logo p  {
     margin-top: 15px;
     margin-bottom: 25px;
 }
 
-.logo-p a {
+.logo p a {
     font-size: 18px;
     color: #1d1d1d;
     border-bottom: 2px solid #1d1d1d;
