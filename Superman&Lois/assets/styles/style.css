@@ -107,3 +107,9 @@ html, body {
     padding: 12px 0;
 }
 
+.IrTopo a {
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    color: #000000;
+}
