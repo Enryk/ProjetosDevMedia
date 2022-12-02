@@ -107,13 +107,12 @@ html, body {
     padding: 12px 0;
 }
 
-
-
 .IrTopo img {
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 5px;
     width: 40px;
     border-radius: 50%;
     background-color: #ffffff;
+    opacity: 30%;
 }
