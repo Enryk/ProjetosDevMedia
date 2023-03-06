@@ -52,3 +52,70 @@ body {
 .link-topo:hover {
     border-bottom: 3px solid #6592c9;
   }
+
+.titulo-site {
+    background-image: url("../img/img-fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-site-descricao {
+    color: #fff;
+    font-size: 28px;
+    background-color: #0a9077b3;
+    border: 1px solid;
+    padding: 0 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.tamanho-max-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao-container {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.secao-container h2 {
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.quartos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quarto {
+    margin-right: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00836a;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+.quarto a {
+    text-decoration: none;
+    color: #333
+}
+
+.quarto a p {
+    text-align: center;
+}
+
+.quarto:last-child {
+    margin-right: 0px;
+}
+
+img {
+    width: 100%;
+}
