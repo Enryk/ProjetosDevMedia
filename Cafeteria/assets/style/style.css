@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Fraunces', serif;
-    font-family: 'Lato', sans-serif;
+    
     
 }
 
@@ -102,4 +102,28 @@ body {
 .container-parallax3 {
     background-image: url(../img/parallax-imagem3.jpg);
     height: 50vh;
+}
+
+.container-texto {
+    padding: 80px 0px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container-texto h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    color: #c4a47c;
+}
+
+.container-texto p {
+    max-width: 1024px;
+    padding: 0px 20px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    line-height: 34px;
+    letter-spacing: 1px;
+    color: #666;
 }
