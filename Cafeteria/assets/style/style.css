@@ -233,7 +233,7 @@
 
 .container-rodape {
     position: relative;
-    padding: 20px 0;
+    padding: 25px 0;
     line-height: 34px;
     letter-spacing: 2px;
     font-weight: 600;
@@ -259,4 +259,8 @@
     background-size: cover;
     background-color: #c4a47c;
     border-radius: 4px;
+}
+
+.music_oculta {
+    display: none;
 }
