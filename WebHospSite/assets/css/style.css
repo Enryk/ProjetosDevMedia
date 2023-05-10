@@ -1,0 +1,61 @@
+:root {
+    --1-bg-color: #fff;
+    --2-bg-color: #f1f3f7;
+    --3-bg-color: #f6f6f6;
+    --4-bg-color: #a89f9f;
+    --5-bg-color: #233032;
+    --6-bg-color: #2f86d6;
+    --7-bg-color: rgba(47, 134, 214, 1);
+    --8-bg-color: #a8a4a4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tamanho-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-topo {
+    position: relative;
+    padding: 35px 0px;
+}
+
+.topo-logo {
+    position: relative;
+}
+
+.topo-logo img {
+    width: 80px;
+}
+
+.topo-logo div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.topo-logo p {
+    color: var(--6-bg-color);
+    font-weight: 600;
+}
+
+.topo-links {
+    position: relative;
+    top: 65px;
+    right: 0;
+}
+
+.topo-links a {
+    font-size: 18px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--5-bg-color);
+}
