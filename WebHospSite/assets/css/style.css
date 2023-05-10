@@ -47,7 +47,7 @@
 }
 
 .topo-links {
-    position: relative;
+    position: absolute;
     top: 65px;
     right: 0;
 }
